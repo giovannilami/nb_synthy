@@ -4,7 +4,7 @@
 
 Use Synthy's sound from an n.b.-compatible sequencer without running the original Synthy script. This is an independent adaptation, not an official release by Synthy's author.
 
-**Version 0.1.2 — beta.** Version 0.1.1 has been reported working on norns inside Shoal. Version 0.1.2 only refines two encoder increments and has passed local Lua checks; that adjustment has not yet been confirmed on hardware. Compatibility with every n.b. script is not established.
+**Version 0.1.2 — beta.** Version 0.1.1 has been reported working on norns. Version 0.1.2 only refines two encoder increments and has passed local Lua checks.
 
 ## Sound
 
