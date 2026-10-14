@@ -26,9 +26,18 @@ The original `SawDPW` and `MoogLadder` classes are used when available. If eithe
 
 ## Installation
 
-### While this repository is private
+Run this command in maiden:
 
-Download the repository ZIP while signed into GitHub with access to it. Extract it, rename the extracted folder to **nb_synthy**, and copy it into `/home/we/dust/code/` on norns using SFTP or the shared `code` folder.
+```lua
+;install https://github.com/giovannilami/nb_synthy
+```
+
+1. Open **SYSTEM > MODS**, select **nb_synthy**, and turn E3 to enable it (`+`).
+2. Choose **SYSTEM > RESTART**.
+3. Load an n.b.-compatible script and select **synthy** as its voice.
+4. Open the **synthy** parameter group to adjust the sound.
+
+Alternatively, download the repository ZIP, extract it, rename the extracted folder to **nb_synthy**, and copy it into `/home/we/dust/code/` using SFTP or the shared `code` folder. Then enable the mod and restart as above.
 
 Check that the layout is:
 
@@ -40,24 +49,7 @@ code/nb_synthy/
   nb_synthy_test.lua
 ```
 
-Do not nest a second `nb_synthy` folder inside the first one.
-
-1. Open **SYSTEM > MODS**, select **nb_synthy**, and turn E3 to enable it (`+`).
-2. Choose **SYSTEM > RESTART**.
-3. Load an n.b.-compatible script and select **synthy** as its voice.
-4. Open the **synthy** parameter group to adjust the sound.
-
-Keep only one copy of this mod inside `dust`. Renamed backups there can still expose duplicate SuperCollider classes; keep backups outside `dust`.
-
-### After the repository becomes public
-
-The following maiden command will be available without repository authentication:
-
-```lua
-;install https://github.com/giovannilami/nb_synthy
-```
-
-Then enable the mod and restart as above. This command is not the installation route for the current private repository.
+Do not nest a second `nb_synthy` folder inside the first one. Keep only one copy of this mod inside `dust`: renamed backups there can still expose duplicate SuperCollider classes. Keep backups outside `dust`.
 
 ## First notes
 
